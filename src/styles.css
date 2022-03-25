@@ -1,0 +1,11 @@
+body {
+    background-image: url(burnerchat-background.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
