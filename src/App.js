@@ -38,6 +38,7 @@ const App = () => {
   return (
     <div className={classes.wrapper}>
       <AppBar className={classes.appBar} position="static" color="inherit">
+        <img src="favicon.png" alt="page_logo" width="65" height="65" style={{ borderRadius: '50px', marginRight: '10px' }} />
         <Typography variant="h2" align="center">Burner Chat</Typography>
       </AppBar>
       <VideoPlayer />
