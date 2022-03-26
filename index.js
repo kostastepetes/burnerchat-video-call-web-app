@@ -11,6 +11,11 @@ const io = require("socket.io")(server, {
 
 app.use(cors());
 
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
+
 const PORT = process.env.PORT || 5000;
 
 app.get('/', (req, res) => {
