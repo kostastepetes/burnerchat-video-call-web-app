@@ -4,4 +4,3 @@ Video Call Web App called BurnerChat. Completely safe and private video call wit
 
 ![logo](public/favicon.png)
 
-Give it a shot here: https://burnerchat.netlify.app/
